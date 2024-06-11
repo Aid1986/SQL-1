@@ -3,7 +3,8 @@
 
 # Задание_1
 
-'''SELECT
+'''
+SELECT
 	DISTINCT district
 FROM
 	address
