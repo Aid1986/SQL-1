@@ -17,7 +17,7 @@ WHERE
  [1](https://github.com/Aid1986/SQL-1/blob/main/1.png
 
  # Задание_2
-
+```
  SELECT
 	*
 FROM
@@ -26,11 +26,11 @@ WHERE
 	amount > 10
 	AND payment_date >= '2005-06-15'
 	AND payment_date < '2005-06-19';
-
+```
  [2](https://github.com/Aid1986/SQL-1/blob/main/2.png
 
  # Задание_3
-
+```
  SELECT
 	*
 FROM
@@ -38,11 +38,11 @@ FROM
 ORDER BY
 	rental_date DESC
 LIMIT 5;
-
+```
 [3](https://github.com/Aid1986/SQL-1/blob/main/3.png
 
 # Задание_4
-
+```
 SELECT
 	customer_id,
 	store_id,
@@ -58,5 +58,5 @@ FROM
 WHERE
 	active = 1
 	AND first_name IN ('Kelly', 'Willie');
-
+```
  [4](https://github.com/Aid1986/SQL-1/blob/main/4.png
